@@ -2,7 +2,7 @@
 (library
   (name Refana)
   (public_name refana)
-  (libraries yojson ppx_deriving_yojson.runtime)
+  (libraries yojson ppx_deriving_yojson.runtime unix)
   (preprocess (pps ppx_obj_make ppx_deriving.std ppx_deriving_yojson)))
 
 (documentation)
